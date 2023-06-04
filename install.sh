@@ -7,7 +7,7 @@ eval "$sourceCommand"
 python -m venv --system-site-packages myenv
 source myenv/bin/activate
 
-python -m pip install -e .
+python -m pip install -e .[docs,dev]
 
 python -m pip install --no-binary=correctionlib correctionlib
 

@@ -74,7 +74,7 @@ command:
 
 .. code:: bash
 
-   . ./start.sh
+   source start.sh
 
 Run the analysis with the provided example
 -----------------------------------------------------------------------

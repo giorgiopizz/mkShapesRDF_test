@@ -3,6 +3,7 @@ Configuration file for mkShapesRDF script.
 
 It's the only necessary python configuration file, all the other files are imported and defined by this one.
 
+test_folder is a folder containing a minimal configuration to be test (samples only include Zjj, DY and DATA)
 """
 
 #: tag used to identify the configuration folder version
@@ -97,4 +98,4 @@ varsToKeep = [
 batchVars = varsToKeep[varsToKeep.index("samples") :]
 
 
-varsToKeep += ['plotPath']
+varsToKeep += ["plotPath"]

@@ -102,7 +102,10 @@ class SearchFiles:
             procString += '"'
 
             proc = subprocess.Popen(
-                procString, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+                procString,
+                shell=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
             )
             out, err = proc.communicate()
             out = out.decode("utf-8")

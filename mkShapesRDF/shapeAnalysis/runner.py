@@ -196,7 +196,7 @@ class RunAnalysis:
         self.dfs = {}
         r"""
         dfs is a dictionary containing as keys the sampleNames. The structure should look like this:
-        
+
         ..  code-block:: python
 
             dfs = {

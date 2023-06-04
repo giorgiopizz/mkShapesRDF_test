@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 from math import ceil
 from textwrap import dedent
+from mkShapesRDF.lib.utils import getFrameworkPath
 
 
 class Processor:
@@ -80,7 +81,7 @@ class Processor:
         self.maxFilesPerJob = maxFilesPerJob
         self.limitFiles = limitFiles
         self.dryRun = dryRun
-        self.path = os.path.abspath(os.path.dirname(os.path.abspath(__file__))) + "/"
+        self.path = getFrameworkPath() + "mkShapesRDF/processor/framework/"
 
     def getFiles_cfg(self):
         """

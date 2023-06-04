@@ -12,7 +12,7 @@ condorDir = (
 )
 
 #: eosDir is the path to use for eos submission, user might want to change it -> edit ``mkPostProc.py``
-eosDir = "/eos/user/g/gpizzati/mkShapesRDF_nanoAOD"
+eosDir = "/eos/cms/store/group/phys_smp/Latinos/vbfz/mkShapesRDF_nanoAOD"
 
 
 def defaultParser():

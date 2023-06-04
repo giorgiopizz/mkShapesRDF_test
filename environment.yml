@@ -5,3 +5,6 @@ dependencies:
   - pip
   - root
   - boost
+  - gcc
+  - cmake
+  - ninja

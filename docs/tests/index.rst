@@ -9,3 +9,4 @@ tests
 
    test_parse_cpp
    test_shapes
+   test_processor

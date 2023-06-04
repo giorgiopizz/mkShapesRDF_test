@@ -6,6 +6,7 @@ class JMECalculator(Module):
     """
     This module calculates the JES/JER for jets and MET objects and stores the nominal values and the variations (up/down) in the output tree.
     """
+
     def __init__(
         self,
         JEC_era,

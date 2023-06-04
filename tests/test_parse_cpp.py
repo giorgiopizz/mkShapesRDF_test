@@ -1,4 +1,3 @@
-# flake8: noqa F401
 import pytest
 from mkShapesRDF.lib.parse_cpp import ParseCpp
 

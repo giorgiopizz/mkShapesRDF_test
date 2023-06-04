@@ -9,7 +9,7 @@ import inspect
 from mkShapesRDF.lib.utils import getFrameworkPath
 
 modpath = getFrameworkPath()
-linkcode_url = "https://github.com/giorgiopizz/mkShapesRDF/blob/v0.0.1/{filepath}#L{linestart}-L{linestop}"
+linkcode_url = "https://github.com/giorgiopizz/mkShapesRDF_test/blob/main/{filepath}#L{linestart}-L{linestop}"
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -109,3 +109,7 @@ html_theme_options = {
         },
     ],
 }
+
+sys.path.insert(0, os.path.abspath("shapes/python"))
+sys.path.insert(0, os.path.abspath("../tests"))
+autodoc_member_order = 'bysource'
