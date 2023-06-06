@@ -1,6 +1,7 @@
 # mkShapesRDF: Simple Parallel RDF version of [LatinoAnalysis](https://github.com/latinos/LatinoAnalysis/)
 [![Documentation Status](https://readthedocs.org/projects/mkshapesrdf/badge/?version=latest)](https://mkshapesrdf.readthedocs.io/en/latest/?badge=latest)
-[![Tests](https://github.com/giorgiopizz/mkShapesRDF_test/actions/workflows/github-demo.yml/badge.svg)](https://github.com/giorgiopizz/mkShapesRDF_test/actions/workflows/github-demo.yml)
+[![tests](https://github.com/giorgiopizz/mkShapesRDF_test/actions/workflows/ci_lint_format_test.yml/badge.svg)](https://github.com/giorgiopizz/mkShapesRDF_test/actions/workflows/ci_lint_format_test.yml)
+
 
 Please refer to [documentation](https://mkshapesrdf.readthedocs.io/en/latest/) for installation and a quick start guide.
 
